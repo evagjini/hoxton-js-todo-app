@@ -1,4 +1,11 @@
 // first step 
+
+
+let stat=[
+    { title: "Go Shopping", completed:false}
+    {title: "Work out", completed:false}
+
+]
 function renderOptionsSection(){
     let optionsSection = document.createElement('section');
     optionsSection.className= ('options');

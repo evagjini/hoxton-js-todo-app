@@ -48,16 +48,51 @@ function renderOptionsSections(){
 }
 
 
+
+    function renderAddTodoSection (){
+    let addTodoSection = document.createElement('section')
+    addTodoSection.className= ('add-item')
+    let addTitle= document.createElement('h2')
+    addTitle.className=('sec-title')
+    addTitle.innerText= 'Add Item'
+
+     addTodoSection.append(addTitle)
+
+    }
+
+
+
+
 function render(){
     document.body.textContent=''
 
 renderApp()
 renderOptionsSections()
+renderAddTodoSection()
 
 }
 
 render()
 
+
+// <section class="add-item">
+//         <h2 class="sec-title"> Add item </h2>
+//            
+
+
+
+
+
+
+
+
+
+
+//                    <form>
+// //                 <input type="text" />
+// //                 <button>Add</button>
+// //             </form>
+//         </section>
 
 
 
